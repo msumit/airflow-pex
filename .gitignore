@@ -7,7 +7,7 @@
 dist/
 airflow_home/airflow.cfg
 airflow_home/airflow.db
-airflow_home/unittest.cfg
+airflow_home/unittests.cfg
 airflow_home/logs/*
 *.iml
 *.pyc
