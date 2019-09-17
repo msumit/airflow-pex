@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec env PEX_MODULE=gunicorn.app.wsgiapp airflow "$@"

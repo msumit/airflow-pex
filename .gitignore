@@ -1,0 +1,14 @@
+.cache/
+.idea/
+.pants.d/
+.pants.workdir.file_lock
+.pids/
+.pex/
+dist/
+airflow_home/airflow.cfg
+airflow_home/airflow.db
+airflow_home/unittest.cfg
+airflow_home/logs/*
+*.iml
+*.pyc
+__pycache__/

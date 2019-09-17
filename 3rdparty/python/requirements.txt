@@ -1,0 +1,2 @@
+apache-airflow==1.10.5
+prometheus_client==0.7.1
