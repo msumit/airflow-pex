@@ -10,9 +10,9 @@ Build an Airflow pex by running:
 ./pants binary src/python/ariflow:airflow
 ``` 
 
-This produces `airflow.pex`, a single file that is analogous to a
-statically-lined binary. It's a self-contained, runnable Airflow you can
-`scp` to another machine and run.
+This produces `airflow.pex`, a single file that is analogous to a statically-lined binary. It's a self-contained, 
+runnable Airflow you can `scp` to another machine and run. However, ideally you would zip this whole folder and `scp` 
+to remote machine. 
 
 You can then run Airflow commands, using `airflow_cli` wrapper, which internally calls the `airflow.pex` file. You can 
 also use this wrapper file to modify the Airflow config variables. 
